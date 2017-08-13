@@ -5,9 +5,9 @@ body {
   background-color: black;
 }
 
-h6 { 
+h1 { 
     display: block;
-    font-size: .67em;
+    font-size: 3em;
     margin-top: 2.33em;
     margin-bottom: 2.33em;
     margin-left: 0;
