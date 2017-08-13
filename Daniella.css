@@ -1,10 +1,10 @@
-h2 {
-  color: white;
-  text-align: center;
-}
 
 body {
   color: white;
-  text-align: center;
+  text-align: right;
   background-color: black;
+}
+
+p.header{
+  size: 7;
 }
