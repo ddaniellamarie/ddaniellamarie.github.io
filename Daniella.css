@@ -1,77 +1,41 @@
-<!DOCTYPE html>
-<html>
+body{
+  background-color: rgb(0,3,48);
+  color: white;
+  font-family: Comic sans-serif;
+}
 
-	<head>
-		<title>Personal Information</title>
-	</head>
+p{
+  text-align: left;
+  margin-left: 100px; 
+  padding: 10px;
+  font-size:23px;
+}
 
-	<body>
-	  <form>
-	   
-	    <h2> Login Details </h2>
-		  	<fieldset>
-		  	<p><label>Name: <input type="text" name="name" required></label></p>
-		  	<p><label>Email: <input type="text" name="email" required></label> </p>  
-		  	<p><label>Password <input type="password"></label> </p>
-		  	</fieldset>
-		
-		<h2> Personal Details </h2>
-			<fieldset>
-				<p><label>Upload Your Picture</label></p>
-				<input type="file" name="pic" accepts="jpeg; png" required>
-				<p><label>Birthday: <input type="date" name="birthday" required><label></p>
-				<p><label>Sex: </label></p>
-				<p><label><input type="radio" name="sex" value="male">Male</label> <label><input type="radio" name="sex" value="female">Female</label></p>
-				<p><label>Address: <textarea name="address"></textarea></label></p>
-				<p><label>Mobile No.: <input type="text" name="mobilno" required></label> </p>
-				<p><label>Classification: </label></p>
-				<p><label><input type="radio" name="class" value="freshie">Freshman</label>
-				<label><input type="radio" name="class" value="sophomore">Sophomore</label>
-				<label><input type="radio" name="class" value="junior">Junior</label>
-				<label><input type="radio" name="class" value="senior">Senior</label>
-				<label><input type="radio" name="class" value="super senior">Super Senior</label>
-				</p>
-			</fieldset>
+h2 {
+	font-size:36px;
+	padding-left: 150px;
+}
 
-		<h2>Interests</h2>
-			<fieldset>
-				<p><label>What is your favorite color?                 </label><input type="color" name="favcolor"></p>
-				
-				<p><label>Why? <textarea name="why"></textarea></label></p>
-				
-				<p><label> What is your favorite number?<input type="number"></label></p>
-				
-				<p><label>Why? <textarea name="why"></textarea></label></p>
-				
-				<p><label>Which dishes do you like?</label></p>
-				<input type="checkbox" name="dish" value="Adobo"> Adobo
-				<input type="checkbox" name="dish" value="Sinigang"> Sinigang
-				<input type="checkbox" name="dish" value="Tinola"> Tinola
-				<input type="checkbox" name="dish" value="Menudo"> Menudo
-				<input type="checkbox" name="dish" value="Afritada"> Afritada
-				<input type="checkbox" name="dish" value="Beef Steak"> Beef Steak
-				<p>Others<input type="text" name="dish" > </p>
-				
-				<p><label>Which desserts do you like?</label></p>
-				<input type="checkbox" name="dessert" value="cake"> Cake
-				<input type="checkbox" name="dessert" value="ice cream"> Ice Cream
-				<input type="checkbox" name="dessert" value="mixed fruits"> Mixed Fruits
-				<input type="checkbox" name="dessert" value="halo halo"> Halo Halo
-				<input type="checkbox" name="dessert" value="banana sundae"> Banana Sundae
-				<p>Others<input type="text" name="dessert" > </p>
-				
-				<p><label>Which websites do you visit everyday?</label></p>
-				<input type="checkbox" name="vstdwbst" value="Facebook"> Facebook
-				<input type="checkbox" name="vstdwbst" value="Twitter"> Twitter
-				<input type="checkbox" name="vstdwbst" value="Youtube"> Youtube
-				<input type="checkbox" name="vstdwbst" value="Amazon"> Amazon
-				<p>Others<input type="text" name="vstdwbst" > </p>
-				<p><label>How much do you like CMSC2? (Rate 1-10) </label></p>
-				<input id="cmscscale" type="range" min="1" max="10" step="1" value="1" ></input>
-			</fieldset>
+h1 { 
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    align: center;
+}
 
-			<p><input type="submit" value="Submit" ></p>
+img.portrait{
+	float: left;
+	padding: 12px;
+	margin-left: 130px; 
+	margin-right: 75px;
+	height: 250px;
+}
 
-		</form>
-	</body>
-</html>
+img.footer{
+	width:1360px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
