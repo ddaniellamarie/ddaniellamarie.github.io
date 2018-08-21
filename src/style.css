@@ -1,30 +1,101 @@
 body {
 	background-image: url("bg.jpg");
 	background-attachment: fixed;
-	background-position: center;
-	background-size: default;
+	background-size: 100%;
+	background-repeat: no-repeat;
 	text-align: center;
- }
-
-img {
-	width:300px;
-	height: auto;
 }
 
 #fullname {
-	text-align: center;
-	font-family: "Times New Roman";
+	text-align: left;
+	font-family: "Sacramento";
 	font-style: italic;
 	font-size: 72px;
+	margin-top: 0px;
+	margin-bottom: 0;
+	margin-left: 3%;
 }
 
-p.caption {
-	font-size: 14px;
+#audio{
+	margin-left: 15%;
+	display: block;
+	margin-bottom: 10px;
 }
-#content {
-	font-size: 24px;
-}
+
 #displaypicture{
-	width: 100px;
+	width: 150px;
+	height: auto
+}
 
+#side{
+	width: 150px;
+	font-size: 36px;
+	text-align: center;
+	float: left;
+	font-family: "Merienda One";
+
+}
+
+.img {
+	height: auto;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+#content{
+		 float: left;
+		 margin-left: 1%;
+		 height: 400px;
+		 width: 940px;
+		 font-family: "Gloria Hallelujah";
+		 font-size: 16px;
+		 color: white;
+		 background-color: rgba(0, 0, 0, 0.42);
+		 display: inline-block;
+		 border: 1px solid #ccc;
+     border-top: none;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: rgba(0,0,0,0.5);
+		height: auto;
+		margin: 0px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+		overflow: visible;
+		text-align: center;
+
+}
+
+.tablinks{
+		color: white;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+#food{
+	width: 300px;
+}
+#color{
+	width: 300px;
 }
