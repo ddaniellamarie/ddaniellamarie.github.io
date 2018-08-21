@@ -39,3 +39,15 @@ img.footer{
 	padding-top:20px;
 	padding-bottom:20px;
 }
+
+.box1 {
+    width: 550px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+}w
