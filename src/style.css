@@ -10,7 +10,7 @@ body {
 	text-align: left;
 	font-family: "Sacramento";
 	font-style: italic;
-	font-size: 100%;
+	font-size: 90px;
 	margin-top: 0px;
 	margin-bottom: 0;
 	margin-left: 3%;
@@ -24,11 +24,12 @@ body {
 }
 
 #displaypicture{
-	height: auto
+	width: 150px;
+	height: auto;
 }
 
 #side{
-	width: 30%;
+	width: 150px;
 	font-size: 36px;
 	text-align: center;
 	float: left;
@@ -49,7 +50,7 @@ body {
 		 float: left;
 		 margin-left: 1%;
 		 height: 100%;
-		 width: 60%;
+		 width: 70%;
 		 font-family: "Gloria Hallelujah";
 		 font-size: 18px;
 		 color: white;
