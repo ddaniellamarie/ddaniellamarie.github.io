@@ -10,10 +10,11 @@ body {
 	text-align: left;
 	font-family: "Sacramento";
 	font-style: italic;
-	font-size: 98px;
+	font-size: 100%;
 	margin-top: 0px;
 	margin-bottom: 0;
 	margin-left: 3%;
+	width: 70%;
 }
 
 #audio{
@@ -23,12 +24,11 @@ body {
 }
 
 #displaypicture{
-	width: 150px;
 	height: auto
 }
 
 #side{
-	width: 150px;
+	width: 30%;
 	font-size: 36px;
 	text-align: center;
 	float: left;
@@ -56,7 +56,7 @@ body {
 		 background-color: rgba(0, 0, 0, 0.42);
 		 display: inline-block;
 		 border: 1px solid #ccc;
-     border-top: none;
+     		 border-top: none;
 }
 
 .tab {
